@@ -1,8 +1,8 @@
 LightmappedGeneric
 {
-	"$basetexture" "rp_bangclaw/metal/prodventa"
+	"$basetexture" "metal/prodventa"
 	"$surfaceprop" "metalvent"
 	"$envmap" "env_cubemap"
-	"$bumpmap" "rp_bangclaw/metal/prodventa_normal"
+	"$bumpmap" "metal/prodventa_normal"
 	"$normalmapalphaenvmapmask" "1"
 }
