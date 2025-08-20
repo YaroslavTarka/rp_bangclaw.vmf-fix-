@@ -1,29 +1,22 @@
-## rp_bangclaw Fixes for Garry's Mod
+## rp_bangclaw — Fix & Improvements
 
-Greetings!
+Welcome!
 
 This repository contains **fixes and improvements** the **rp_bangclaw** map for Garry's Mod.  
-You'll find editable **.VMF** versions compatible with both **Hammer** and **Hammer++**.
+You'll find editable **.VMF** versions compatible with both **Hammer** and **Hammer++**.  
+The map is also available in the [Steam Workshop][wokrshoplink].
 
-> [!NOTE]
-> **This project is a work in progress.**  
-> The repository does **not** represent the final version of the map.  
-> Fixes and improvements are still being applied — expect changes and possible issues.
+### 📦 VMF Files
 
-### 📦 Included Versions
+1. 🗺️ **VMF Original** — Unmodified version of the map from the Steam Workshop.
+2. 🟥 **VMF RED** — Fixed textures affected by broken cubemaps.
+3. 🟨 **VMF YELLOW** — All textures, brushes fixed.
+   Upcoming: optimizations.
 
-1. 🗺️ **VMF original** — Unmodified version of the map from the Steam Workshop.
-2. 🟥 **VMF Fix v1 - RED** — Fixed textures affected by broken cubemaps.
-3. 🟨 **VMF Fix v2 - YELLOW** — All textures fixed.
-    Upcoming: brush updates and optimizations.
+### 🐞 Bug Reports
 
-> [!IMPORTANT]
-> Some brushes were fixed in version 3, but it still requires improvements.  
-> **Compilation leaks or errors may occur** — please report if you find any!
-
-### 💬 Feedback & Contact
-
-If you find any issues, feel free to contact me on **Discord**: `yaroslavtarka`
+Found a mistake or a bug?  
+[Create an issue][github_new_issue] or contact us on **Discord**: `yaroslavtarka`
 
 ### 🔧 For Developers
 
@@ -33,6 +26,7 @@ Then set the path in `mount.cfg`:
 ```cfg
 "rp_bangclaw content"	"G:\rp_bangclaw.vmf-fix-\content"
 ```
+
 > [!NOTE]
 > Your path maybe different
 
@@ -40,37 +34,30 @@ Then set the path in `mount.cfg`:
 
 Big thanks to everyone who contributed!
 
-- **Satton (RU)** – Finding issues  
-- **Boxden** (web_artur) – Massive help with development
+- [**Boxden**][steam_webartur] – Massive help with development  
+- [**Satton (RU)**][steam_sattonru] – Finding issues
 
 ---
 
 ## 🌐 Русская версия
 
-Приветствую!
+Добро пожаловать!
 
 Этот репозиторий содержит **исправления и улучшения** карты **rp_bangclaw** для Garry's Mod.  
-Представлены редактируемые версии **.VMF** для **Hammer** и **Hammer++**.
+Представлены редактируемые версии **.VMF** для **Hammer** и **Hammer++**.  
+Карта также доступна в [Steam Workshop][wokrshoplink].
 
-> [!NOTE]
-> **Проект находится в процессе разработки.**  
-> Репозиторий **не представляет финальную версию** карты.  
-> Исправления и улучшения ещё продолжаются — возможны изменения и ошибки.
+### 📦 VMF Файлы
 
-### 📦 Включённые версии:
+1. 🗺️ **VMF Original** — оригинальная карта из воркшопа, без изменений.  
+2. 🟥 **VMF RED** — исправлены текстуры, повреждённые из-за cubemap.  
+3. 🟨 **VMF YELLOW** — исправлены все текстуры, браши.  
+   Ожидаются обновления оптимизации.
 
-1. 🗺️ **VMF original** — оригинальная карта из воркшопа, без изменений.  
-2. 🟥 **VMF Fix v1 — RED** — исправлены текстуры, повреждённые из-за cubemap.  
-3. 🟨 **VMF Fix v2 — YELLOW** — исправлены все текстуры.  
-   Ожидаются обновления брашей и оптимизация.
+### 🐞 Сообщить об ошибке
 
-> [!IMPORTANT]
-> Версия 3 всё ещё требует доработки.  
-> Возможны ошибки при компиляции — пожалуйста, сообщайте, если найдёте!
-
-### 💬 Обратная связь
-
-Если нашли проблему, пожалуйста, свяжитесь со мной в **Discord**: `yaroslavtarka`
+Нашли ошибку или баг?  
+[Создайте issue][github_new_issue] или напишите в **Discord**: `yaroslavtarka`
 
 ### 🔧 Для разработчиков
 
@@ -86,5 +73,12 @@ Big thanks to everyone who contributed!
 
 ### 🙌 Благодарности
 
-- **Satton (RU)** — Поиск ошибок  
-- **Boxden** (web_artur) — Внёс огромный вклад
+- [**Boxden**][steam_webartur] — Внёс огромный вклад  
+- [**Satton (RU)**][steam_sattonru] — Поиск ошибок
+
+<!-- Links -->
+
+[steam_webartur]: https://steamcommunity.com/profiles/76561198115550963
+[steam_sattonru]: https://steamcommunity.com/profiles/76561198132229662
+[github_new_issue]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/issues/new
+[wokrshoplink]: https://steamcommunity.com/sharedfiles/filedetails/?id=3540487525
