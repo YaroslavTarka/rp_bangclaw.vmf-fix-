@@ -1,9 +1,0 @@
-LightmappedGeneric
-{
-	"$basetexture"	"decals\offsigna"
-	"$translucent" "1"
-	"$decal" "1"
-	"$decalscale" "0.500"
-	"$surfaceprop" "concrete_block"
-
-}

@@ -1,7 +1,0 @@
-"LightmappedGeneric"
-{
-	"$baseTexture" "cs_assault/assault_crate_decal_1"
-	"$translucent" "1"
-	"$decal" "1"
-	"$decalscale" "0.250"
-}

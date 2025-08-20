@@ -1,9 +1,0 @@
-"lightmappedGeneric"
-{
-	"$baseTexture" "de_piranesi/marblefloor06"
-	"$surfaceprop" "rock"
- 	"$envmap" "env_cubemap"
-	"$envmapcontrast" "1"
-	"$envmapmask" "de_piranesi/marblefloor01_spec"
-	"%keywords" "cstrike" 
-}

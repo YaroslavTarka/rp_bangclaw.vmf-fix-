@@ -1,7 +1,0 @@
-"VertexLitGeneric"
-{
-	"$basetexture" "Models/props_c17/factoryengine01"
-	"$envmapmask" "Models/props_c17/factoryengine01_mask"
-	"$envmap" "env_cubemap"
-//	"$multipass" 1
-}
