@@ -2,16 +2,16 @@
 
 Welcome!
 
-This repository contains **fixes and improvements** the **rp_bangclaw** map for Garry's Mod.  
-You'll find editable **.VMF** versions compatible with both **Hammer** and **Hammer++**.  
-The map is also available in the [Steam Workshop][wokrshoplink].
+This repository contains **fixes and improvements** the **rp_bangclaw** map for Garry's Mod  
+You'll find editable **.VMF** versions compatible with both **Hammer** and **Hammer++**  
+The map is also available in the [Steam Workshop][wokrshoplink]
 
 ### 📦 VMF Files
 
-1. 🗺️ **VMF Original** — Unmodified version of the map from the Steam Workshop.
-2. 🟥 **VMF RED** — Fixed textures affected by broken cubemaps.
-3. 🟨 **VMF YELLOW** — All textures, brushes fixed.
-   Upcoming: optimizations.
+1. 🗺️ **VMF Original** — Unmodified version of the map from the Steam Workshop
+2. 🟥 **VMF RED** — Fixed textures affected by broken cubemaps
+3. 🟨 **VMF YELLOW** — All textures, brushes fixed  
+	Upcoming: optimizations
 
 ### 🐞 Bug Reports
 
@@ -20,23 +20,24 @@ Found a mistake or a bug?
 
 ### 🔧 For Developers
 
-Clone or download the repository.  
-Then set the path in `mount.cfg`:
+1. **Download or clone the repository**  
+The repository contains all source VMF files and additional content
+2. **Specify the path in** `mount.cfg` _(example):_
 
 ```cfg
 "rp_bangclaw content"	"G:\rp_bangclaw.vmf-fix-\content"
 ```
 
 > [!NOTE]
-> Your path maybe different
+> Use your own path, it may differ
 
-### Compile Settings
+### ⚙️ Compile Settings
 
-**VBSP:** - _None_  
-**VVIS:** - _None_  
-**VRAD** `-StaticPropPolys -TextureShadows -StaticPropLighting -ldr -final`
+**VBSP:** _no parameters_  
+**VVIS:** _no parameters_  
+**VRAD:** `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`
 
-The following models were added to the `GarrysMod/garrysmod/lights.rad` file:
+The following lines were added to the `GarrysMod/garrysmod/lights.rad` file:
 
 ```
 forcetextureshadow props/de_inferno/tree_small.mdl
@@ -60,16 +61,16 @@ Big thanks to everyone who contributed!
 
 Добро пожаловать!
 
-Этот репозиторий содержит **исправления и улучшения** карты **rp_bangclaw** для Garry's Mod.  
-Представлены редактируемые версии **.VMF** для **Hammer** и **Hammer++**.  
-Карта также доступна в [Steam Workshop][wokrshoplink].
+Этот репозиторий содержит **исправления и улучшения** карты **rp_bangclaw** для Garry's Mod  
+Представлены редактируемые версии **.VMF** для **Hammer** и **Hammer++**  
+Карта также доступна в [Steam Workshop][wokrshoplink]
 
 ### 📦 VMF Файлы
 
-1. 🗺️ **VMF Original** — оригинальная карта из воркшопа, без изменений.  
-2. 🟥 **VMF RED** — исправлены текстуры, повреждённые из-за cubemap.  
-3. 🟨 **VMF YELLOW** — исправлены все текстуры, браши.  
-   Ожидаются обновления оптимизации.
+1. 🗺️ **VMF Original** — оригинальная карта из воркшопа, без изменений  
+2. 🟥 **VMF RED** — исправлены текстуры, повреждённые из-за cubemap  
+3. 🟨 **VMF YELLOW** — исправлены все текстуры, браши  
+	Ожидаются обновления оптимизации
 
 ### 🐞 Сообщить об ошибке
 
@@ -78,23 +79,24 @@ Big thanks to everyone who contributed!
 
 ### 🔧 Для разработчиков
 
-Скачайте или клонируйте репозиторий.  
-Пропишите путь в `mount.cfg`:
+1. **Скачайте или клонируйте репозиторий**  
+Репозиторий содержит все исходные VMF-файлы и дополнительный контент
+2. **Пропишите путь в** `mount.cfg` _(пример):_
 
 ```cfg
 "rp_bangclaw content"	"G:\rp_bangclaw.vmf-fix-\content"
 ```
 
 > [!NOTE]
-> Ваш путь может отличаться
+> Указывайте свой путь, он может отличаться
 
-### Настройки компиляции
+### ⚙️ Настройки компиляции
 
-**VBSP:** - _Ничего_  
-**VVIS:** - _Ничего_  
-**VRAD** `-StaticPropPolys -TextureShadows -StaticPropLighting -ldr -final`
+**VBSP:**  _без параметров_  
+**VVIS:**  _без параметров_  
+**VRAD:** `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`
 
-В файле `GarrysMod/garrysmod/lights.rad` добавлены следующие модели:
+В файл `GarrysMod/garrysmod/lights.rad` были добавлены следующие строки:
 
 ```
 forcetextureshadow props/de_inferno/tree_small.mdl
