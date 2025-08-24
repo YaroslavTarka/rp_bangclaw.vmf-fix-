@@ -30,6 +30,23 @@ Then set the path in `mount.cfg`:
 > [!NOTE]
 > Your path maybe different
 
+### Compile Settings
+
+**VBSP:** - _None_  
+**VVIS:** - _None_  
+**VRAD** `-StaticPropPolys -TextureShadows -StaticPropLighting -ldr -final`
+
+The following models were added to the `GarrysMod/garrysmod/lights.rad` file:
+
+```
+forcetextureshadow props/de_inferno/tree_small.mdl
+forcetextureshadow props/de_inferno/tree_large.mdl
+forcetextureshadow props_c17/fence01a.mdl
+forcetextureshadow props_c17/fence01b.mdl
+forcetextureshadow props_c17/fence03a.mdl
+forcetextureshadow metal/metalfence001a
+```
+
 ### 🙌 Credits
 
 Big thanks to everyone who contributed!
@@ -70,6 +87,23 @@ Big thanks to everyone who contributed!
 
 > [!NOTE]
 > Ваш путь может отличаться
+
+### Настройки компиляции
+
+**VBSP:** - _Ничего_  
+**VVIS:** - _Ничего_  
+**VRAD** `-StaticPropPolys -TextureShadows -StaticPropLighting -ldr -final`
+
+В файле `GarrysMod/garrysmod/lights.rad` добавлены следующие модели:
+
+```
+forcetextureshadow props/de_inferno/tree_small.mdl
+forcetextureshadow props/de_inferno/tree_large.mdl
+forcetextureshadow props_c17/fence01a.mdl
+forcetextureshadow props_c17/fence01b.mdl
+forcetextureshadow props_c17/fence03a.mdl
+forcetextureshadow metal/metalfence001a
+```
 
 ### 🙌 Благодарности
 
