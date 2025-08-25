@@ -1,5 +1,5 @@
 VertexLitGeneric
 {
-	"$basetexture"	"models\props\rp_bangclaw\wall_lamp_bulb"
-	"$selfillum" "1"
+	$basetexture	models\props\rp_bangclaw\wall_lamp_bulb
+	$selfillum		1
 }

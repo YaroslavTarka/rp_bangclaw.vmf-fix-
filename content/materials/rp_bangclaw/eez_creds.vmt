@@ -1,5 +1,5 @@
-"LightmappedGeneric"
+LightmappedGeneric
 {
-	"$basetexture" "rp_bangclaw/eez_creds"
-	"$surfaceprop" "Concrete"
+	$basetexture	rp_bangclaw\eez_creds
+	$surfaceprop	concrete
 }

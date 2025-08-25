@@ -1,4 +1,4 @@
 VertexLitGeneric
 {
-	"$basetexture"	"models\props\rp_bangclaw\ceiling_light"
+	$basetexture	models\props\rp_bangclaw\ceiling_light
 }

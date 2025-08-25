@@ -1,5 +1,5 @@
-"LightmappedGeneric"
+LightmappedGeneric
 {
-	"$basetexture" "Building_Template/Building_Template003a"
-	"$surfaceprop" "Metal"
+	$basetexture	building_template\building_template003a
+	$surfaceprop	concrete
 }
