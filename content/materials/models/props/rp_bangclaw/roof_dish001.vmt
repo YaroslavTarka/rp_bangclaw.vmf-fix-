@@ -1,5 +1,5 @@
-"VertexLitGeneric"
+VertexLitGeneric
 {
-	"$basetexture" "models\props\rp_bangclaw\roof_dish001"
-	"$surfaceprop" "metal"
+	$basetexture models/props_rooftop/roof_dish001
+	$surfaceprop metal
 }
