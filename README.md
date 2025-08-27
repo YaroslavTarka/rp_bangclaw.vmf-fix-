@@ -12,6 +12,10 @@ The map is also available in the [Steam Workshop][wokrshoplink]
 2. 🟥 **VMF RED** — Fixed textures affected by broken cubemaps
 3. 🟨 **VMF YELLOW** — All textures, brushes fixed  
 	Upcoming: optimizations
+4. 🟩 **VMF GREEN** — an extended version, continuing the development of the map[^1]
+
+[^1]: 🟩 **Green** is based on the latest changes in **Yellow**. Its development will begin only after **Yellow** is completed.  
+This version is not included in the current repository and is available in a [separate repository][link_green]
 
 ### 🐞 Bug Reports
 
@@ -71,6 +75,10 @@ Big thanks to everyone who contributed!
 2. 🟥 **VMF RED** — исправлены текстуры, повреждённые из-за cubemap  
 3. 🟨 **VMF YELLOW** — исправлены все текстуры, браши  
 	Ожидаются обновления оптимизации
+4. 🟩 **VMF GREEN** — расширенная версия, продолжающая развитие карты[^2]
+
+[^2]: 🟩 **Green** основана на последних изменениях **Yellow**. Разработка начнётся после завершения работы над Yellow.  
+Данная версия не включена в текущий репозиторий и доступна в [отдельном репозитории][link_green]
 
 ### 🐞 Сообщить об ошибке
 
@@ -118,3 +126,4 @@ forcetextureshadow metal/metalfence001a
 [steam_sattonru]: https://steamcommunity.com/profiles/76561198132229662
 [github_new_issue]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/issues/new
 [wokrshoplink]: https://steamcommunity.com/sharedfiles/filedetails/?id=3540487525
+[link_green]: https://github.com/YaroslavTarka/rp_bangclaw_green
