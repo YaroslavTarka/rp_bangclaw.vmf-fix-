@@ -1,5 +1,5 @@
 LightmappedGeneric
 {
-	$basetexture	rp_bangclaw\saxguy
-	$surfaceprop	concrete
+	$basetexture rp_bangclaw\saxguy
+	$surfaceprop concrete
 }
