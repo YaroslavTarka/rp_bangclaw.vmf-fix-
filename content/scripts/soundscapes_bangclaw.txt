@@ -1,5 +1,5 @@
 // rp_bangclaw soundscape
-// Modified: Web_Artur (boxden), August 2025
+// Modified: Web_Artur (boxden), September 2025
 
 // DSP Effects
 // 0 : "Normal (off)"
@@ -62,7 +62,7 @@
 //	SNDLVL_150dB	= 150,	// 0.2
 
 
-"dust2.outdoors"
+"bangclaw.desert_outdoors"
 {
 	"dsp"	"0"
 	"playlooping"
@@ -99,7 +99,7 @@
 }
 
 
-"assault.outside"
+"bangclaw.outside"
 {
 	"fadetime"			"3"
 	"playlooping"
@@ -264,13 +264,13 @@
 
 	"playsoundscape"
 	{
-		"name"		"d1_canals.util_fardrips"
+		"name"		"bangclaw.fardrips"
 		"volume"	"1.0"
 	}
 	
 	"playsoundscape"
 	{
-		"name"		"d1_canals.util_tunnel_windgusts"
+		"name"		"bangclaw.tunnel_windgusts"
 		"volume"	"0.7"
 	}
 
@@ -317,7 +317,7 @@
 }
 
 
-"assault.ware"
+"bangclaw.ware"
 {
 	"dsp"	"4"
 	"playlooping"
@@ -348,38 +348,38 @@
 
 	"playsoundscape"
 	{
-		"name"				"assault.humminglight"
+		"name"				"bangclaw.humminglight"
 		"positionoverride"	"0"
 	}
 
 	"playsoundscape"
 	{
-		"name"				"assault.humminglight"
+		"name"				"bangclaw.humminglight"
 		"positionoverride"	"1"
 	}
 
 	"playsoundscape"
 	{
-		"name"				"assault.humminglight"
+		"name"				"bangclaw.humminglight"
 		"positionoverride"	"2"
 	}
 
 	"playsoundscape"
 	{
-		"name"				"assault.humminglight"
+		"name"				"bangclaw.humminglight"
 		"positionoverride"	"3"
 	}
 
 	"playsoundscape"
 	{
-		"name"				"assault.outside"
+		"name"				"bangclaw.outside"
 		"positionoverride"	"4"
 		"volume"			"0.2"
 	}
 
 	"playsoundscape"
 	{
-		"name"				"assault.vents_distant"
+		"name"				"bangclaw.vents_distant"
 		"positionoverride"	"5"
 		"volume"			"0.5"
 	}
@@ -391,7 +391,7 @@
 	"fadetime"			"5"
 	"playsoundscape"
 	{
-		"name"			"assault.outside"
+		"name"			"bangclaw.outside"
 		"volume"		"0.25"
 	}
 
@@ -444,7 +444,7 @@
 }
 
 
-"assault.humminglight"
+"bangclaw.humminglight"
 {
 	"playlooping"
 	{
@@ -456,7 +456,7 @@
 }
 
 
-"assault.vents_distant"
+"bangclaw.vents_distant"
 {
 	"playlooping"
 	{
@@ -474,11 +474,11 @@
 }
 
 
-"d1_canals.util_fardrips"
+"bangclaw.fardrips"
 {
 	"playrandom"
 	{
-		"volume"		"0.2,0.5"
+		"volume"		"0.1,0.5"
 		"pitch"			"90,120"
 		"time"			"0.5,5"
 		"position"		"random"
@@ -494,7 +494,7 @@
 }
 
 
-"d1_canals.util_tunnel_windgusts"
+"bangclaw.tunnel_windgusts"
 {
 	"playrandom"
 	{
@@ -512,7 +512,7 @@
 	}
 }
 
-"coast.general_tunnel"
+"bangclaw.general_tunnel"
 {
 	"dsp"	"1"
 	"playlooping"
@@ -524,39 +524,19 @@
 
 	"playsoundscape"
 	{
-		"name"		"coast.util_fardrips"
+		"name"		"bangclaw.fardrips"
 		"volume"	"0.5"
 	}
 
 	"playsoundscape"
 	{
-		"name"		"coast.util_distant_shoreline"
+		"name"		"bangclaw.distant_shoreline"
 		"volume"	"0.5"
 	}
 }
 
 
-"coast.util_fardrips"
-{
-	"playrandom"
-	{
-		"volume"		"0.1,0.2"
-		"pitch"			"90,120"
-		"time"			"0.5,5"
-		"position"		"random"
-		"soundlevel"	"SNDLVL_140dB"
-		"rndwave"
-		{
-			"wave"		"ambient/water/distant_drip1.wav"
-			"wave"		"ambient/water/distant_drip2.wav"
-			"wave"		"ambient/water/distant_drip3.wav"
-			"wave"		"ambient/water/distant_drip4.wav"
-		}
-	}
-}
-
-
-"coast.util_distant_shoreline"
+"bangclaw.distant_shoreline"
 {
 	"playrandom"
 	{
@@ -573,7 +553,7 @@
 }
 
 
-"d1_canals.general_dripping_tunnel"
+"bangclaw.general_dripping_tunnel"
 {
 	"dsp"	"1"
 	"playlooping"
@@ -585,13 +565,13 @@
 
 	"playsoundscape"
 	{
-		"name"			"d1_canals.util_fardrips"
+		"name"			"bangclaw.fardrips"
 		"volume"		"1.0"
 	}
 	
 	"playsoundscape"
 	{
-		"name"			"d1_canals.util_tunnel_windgusts"
+		"name"			"bangclaw.tunnel_windgusts"
 		"volume"		"0.7"
 	}
 
@@ -604,7 +584,7 @@
 }
 
 
-"d1_canals.general_windy_tunnel"
+"bangclaw.general_windy_tunnel"
 {
 	"dsp"	"1"
 	"playlooping"
@@ -623,7 +603,7 @@
 
 	"playsoundscape"
 	{
-		"name"			"d1_canals.util_tunnel_windgusts"
+		"name"			"bangclaw.tunnel_windgusts"
 		"volume"		"1.0"
 	}
 
@@ -661,7 +641,7 @@
 }
 
 
-"general.concrete_quiet"
+"bangclaw.concrete_quiet"
 {
 	"dsp"	"1"
 	"playlooping"
@@ -707,7 +687,7 @@
 }
 
 
-"d1_canals.windchimes_and_wind"
+"bangclaw.windchimes_and_wind"
 {
 	"playlooping"
 	{
@@ -738,13 +718,13 @@
 
 	"playsoundscape"
 	{
-		"name"			"d1_canals.util_birds"
+		"name"			"bangclaw.birds"
 		"volume"		"0.2"
 	}
 }
 
 
-"d1_canals.util_birds"
+"bangclaw.birds"
 {
 	"playrandom"
 	{
@@ -769,14 +749,14 @@
 }
 
 
-"d1_town.WoodBuilding"
+"bangclaw.wood_building"
 {
 	"dsp"				"1"
 	"dsp_volume"		"1"
 
 	"playsoundscape"
 	{
-		"name"			"d1_town.ScaredPeopleInside"
+		"name"			"bangclaw.scared_people_inside"
 		"volume"		"0.7"
 	}
 
@@ -820,7 +800,7 @@
 }
 
 
-"d1_town.ScaredPeopleInside"
+"bangclaw.scared_people_inside"
 {
 	"playrandom"
 	{
@@ -839,7 +819,7 @@
 }
 
 
-"streetwar.car_tunnel"
+"bangclaw.car_tunnel"
 {
 	"dsp"	"1"
 
@@ -867,19 +847,19 @@
 
 	"playsoundscape"
 	{
-		"name"		"streetwar.util_light_combat_atmosphere"
+		"name"		"bangclaw.light_combat_atmosphere"
 		"volume"	"0.5"
 	}
 
 	"playsoundscape"
 	{
-		"name"		"streetwar.util_muffled_light_combat"
+		"name"		"bangclaw.muffled_light_combat"
 		"volume"	"1.0"
 	}
 }
 
 
-"streetwar.util_light_combat_atmosphere"
+"bangclaw.light_combat_atmosphere"
 {
 	"playrandom"
 	{
@@ -923,13 +903,13 @@
 
 	"playsoundscape"
 	{
-		"name"			"streetwar.util_light_sirens"
+		"name"			"bangclaw.light_sirens"
 		"volume"		"0.8"
 	}
 }
 
 
-"streetwar.util_light_sirens"
+"bangclaw.light_sirens"
 {
 	"playrandom"
 	{
@@ -951,7 +931,7 @@
 }
 
 
-"streetwar.util_muffled_light_combat"
+"bangclaw.muffled_light_combat"
 {
 
 	"playrandom"
@@ -976,7 +956,7 @@
 }
 
 
-"streetwar.general_small_tunnel"
+"bangclaw.general_small_tunnel"
 {
 	"playlooping"
 	{
@@ -989,13 +969,13 @@
 
 	"playsoundscape"
 	{
-		"name"			"streetwar.util_muffled_light_combat"
+		"name"			"bangclaw.muffled_light_combat"
 		"volume"		"1.0"
 	}
 }
 
 
-"GenericIndoor"
+"bangclaw.indoor"
 {
 	"dsp"				"1"
 	"playlooping"
@@ -1007,7 +987,7 @@
 }
 
 
-"Nothing"
+"bangclaw.nothing"
 {
 	"dsp"	"0"
 }
