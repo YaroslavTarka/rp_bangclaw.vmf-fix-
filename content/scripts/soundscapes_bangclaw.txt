@@ -717,7 +717,7 @@
 }
 
 
-"bangclaw.windchimes_and_wind"
+"bangclaw.wind"
 {
 	"dsp"	"1"
 	"dsp_volume"	"1"
