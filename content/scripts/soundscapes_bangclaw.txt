@@ -101,6 +101,18 @@
 }
 
 
+"bangclaw.tunnel"
+{
+	"dsp"	"1"
+
+	"playsoundscape"
+	{
+		"name"		"bangclaw.outside"
+		"volume"	"0.5"
+	}
+}
+
+
 "bangclaw.outside"
 {
 	"dsp"	"1"
