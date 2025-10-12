@@ -1,4 +1,4 @@
-## rp_bangclaw — Fix & Improvements
+## Fix & Improvements rp_bangclaw
 
 Welcome!
 
@@ -34,23 +34,6 @@ The repository contains all source VMF files and additional content
 
 > [!NOTE]
 > Use your own path, it may differ
-
-### ⚙️ Compile Settings
-
-**VBSP:** _no parameters_  
-**VVIS:** _no parameters_  
-**VRAD:** `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`
-
-The following lines were added to the `GarrysMod/garrysmod/lights.rad` file:
-
-```
-forcetextureshadow props/de_inferno/tree_small.mdl
-forcetextureshadow props/de_inferno/tree_large.mdl
-forcetextureshadow props_c17/fence01a.mdl
-forcetextureshadow props_c17/fence01b.mdl
-forcetextureshadow props_c17/fence03a.mdl
-forcetextureshadow metal/metalfence001a
-```
 
 ### 🙌 Credits
 
@@ -97,23 +80,6 @@ Big thanks to everyone who contributed!
 
 > [!NOTE]
 > Указывайте свой путь, он может отличаться
-
-### ⚙️ Настройки компиляции
-
-**VBSP:**  _без параметров_  
-**VVIS:**  _без параметров_  
-**VRAD:** `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`
-
-В файл `GarrysMod/garrysmod/lights.rad` были добавлены следующие строки:
-
-```
-forcetextureshadow props/de_inferno/tree_small.mdl
-forcetextureshadow props/de_inferno/tree_large.mdl
-forcetextureshadow props_c17/fence01a.mdl
-forcetextureshadow props_c17/fence01b.mdl
-forcetextureshadow props_c17/fence03a.mdl
-forcetextureshadow metal/metalfence001a
-```
 
 ### 🙌 Благодарности
 
