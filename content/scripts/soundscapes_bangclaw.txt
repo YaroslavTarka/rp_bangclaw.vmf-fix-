@@ -1,5 +1,5 @@
 // rp_bangclaw soundscape
-// Modified: Web_Artur (boxden), September 2025
+// Modified: Web_Artur (boxden), October 2025
 
 // DSP Effects
 // 0 : "Normal (off)"
@@ -64,8 +64,8 @@
 
 "bangclaw.desert_outdoors"
 {
-	"dsp"	"0"
-	"dsp_volume"	"1"
+	"dsp"				"0"
+	"dsp_volume"		"1"
 
 	"playlooping"
 	{
@@ -101,23 +101,33 @@
 }
 
 
+"bangclaw.desert_outdoors_quiet"
+{
+	"playsoundscape"
+	{
+		"name"			"bangclaw.desert_outdoors"
+		"volume"		"0.5"
+	}
+}
+
+
 "bangclaw.tunnel"
 {
-	"dsp"	"1"
+	"dsp"				"1"
 
 	"playsoundscape"
 	{
-		"name"		"bangclaw.outside"
-		"volume"	"0.5"
+		"name"			"bangclaw.outside"
+		"volume"		"0.5"
 	}
 }
 
 
 "bangclaw.outside"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
-	"fadetime"	"3"
+	"dsp"				"1"
+	"dsp_volume"		"1"
+	"fadetime"			"3"
 
 	"playlooping"
 	{
@@ -264,33 +274,33 @@
 
 "bangclaw.scary_dripping_tunnel"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
+	"dsp"				"1"
+	"dsp_volume"		"1"
 
 	"playlooping"
 	{
-		"volume"	"0.5"
-		"wave"		"rp_bangclaw/sewerloop.wav"
-		"pitch"		"100"
+		"volume"		"0.5"
+		"wave"			"rp_bangclaw/sewerloop.wav"
+		"pitch"			"100"
 	}
 
 	"playlooping"
 	{
-		"volume"	"0.2"
-		"wave"		"ambient/water/drip_loop1.wav"
-		"pitch"		"100"
+		"volume"		"0.2"
+		"wave"			"ambient/water/drip_loop1.wav"
+		"pitch"			"100"
 	}
 
 	"playsoundscape"
 	{
-		"name"		"bangclaw.fardrips"
-		"volume"	"1.0"
+		"name"			"bangclaw.fardrips"
+		"volume"		"1.0"
 	}
 	
 	"playsoundscape"
 	{
-		"name"		"bangclaw.tunnel_windgusts"
-		"volume"	"0.7"
+		"name"			"bangclaw.tunnel_windgusts"
+		"volume"		"0.7"
 	}
 
 	"playrandom"
@@ -322,10 +332,10 @@
 
 	"playrandom"
 	{
-		"time"		"15,50"
-		"volume"	"0.3,0.4"
-		"pitch"		"90,100"
-		"position"	"random"
+		"time"			"15,50"
+		"volume"		"0.3,0.4"
+		"pitch"			"90,100"
+		"position"		"random"
 		"rndwave"
 		{
 			"wave"		"rp_bangclaw/ambient/rats_panic_1.mp3"
@@ -338,8 +348,8 @@
 
 "bangclaw.ware"
 {
-	"dsp"	"4"
-	"dsp_volume"	"1"
+	"dsp"				"4"
+	"dsp_volume"		"1"
 
 	"playlooping"
 	{
@@ -409,9 +419,9 @@
 
 "bangclaw.outside_park"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
-	"fadetime"	"5"
+	"dsp"				"1"
+	"dsp_volume"		"1"
+	"fadetime"			"5"
 
 	"playsoundscape"
 	{
@@ -555,26 +565,26 @@
 
 "bangclaw.general_tunnel"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
+	"dsp"				"1"
+	"dsp_volume"		"1"
 
 	"playlooping"
 	{
-		"volume"	"0.4"
-		"pitch"		"100"
-		"wave"		"ambient/levels/canals/tunnel_wind_loop1.wav"
+		"volume"		"0.4"
+		"pitch"			"100"
+		"wave"			"ambient/levels/canals/tunnel_wind_loop1.wav"
 	}
 
 	"playsoundscape"
 	{
-		"name"		"bangclaw.fardrips"
-		"volume"	"0.5"
+		"name"			"bangclaw.fardrips"
+		"volume"		"0.5"
 	}
 
 	"playsoundscape"
 	{
-		"name"		"bangclaw.distant_shoreline"
-		"volume"	"0.5"
+		"name"			"bangclaw.distant_shoreline"
+		"volume"		"0.5"
 	}
 }
 
@@ -598,26 +608,26 @@
 
 "bangclaw.general_dripping_tunnel"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
+	"dsp"					"1"
+	"dsp_volume"			"1"
 
 	"playlooping"
 	{
-		"volume"		"0.2"
-		"wave"			"ambient/water/drip_loop1.wav"
-		"pitch"			"100"
+		"volume"			"0.2"
+		"wave"				"ambient/water/drip_loop1.wav"
+		"pitch"				"100"
 	}
 
 	"playsoundscape"
 	{
-		"name"			"bangclaw.fardrips"
-		"volume"		"1.0"
+		"name"				"bangclaw.fardrips"
+		"volume"			"1.0"
 	}
 	
 	"playsoundscape"
 	{
-		"name"			"bangclaw.tunnel_windgusts"
-		"volume"		"0.7"
+		"name"				"bangclaw.tunnel_windgusts"
+		"volume"			"0.7"
 	}
 
 	"playsoundscape"
@@ -631,20 +641,20 @@
 
 "bangclaw.general_windy_tunnel"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
+	"dsp"					"1"
+	"dsp_volume"			"1"
 
 	"playlooping"
 	{
-		"volume"		"0.4"
-		"wave"			"ambient/levels/canals/tunnel_wind_loop1.wav"
-		"pitch"			"100"
+		"volume"			"0.4"
+		"wave"				"ambient/levels/canals/tunnel_wind_loop1.wav"
+		"pitch"				"100"
 	}
 
 	"playsoundscape"
 	{
-		"name"			"bangclaw.tunnel_windgusts"
-		"volume"		"1.0"
+		"name"				"bangclaw.tunnel_windgusts"
+		"volume"			"1.0"
 	}
 
 	"playsoundscape"
@@ -683,8 +693,8 @@
 
 "bangclaw.concrete_quiet"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
+	"dsp"					"1"
+	"dsp_volume"			"1"
 
 	"playlooping"
 	{
@@ -731,8 +741,8 @@
 
 "bangclaw.wind"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
+	"dsp"				"1"
+	"dsp_volume"		"1"
 
 	"playlooping"
 	{
@@ -776,8 +786,8 @@
 
 "bangclaw.wood_building"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
+	"dsp"				"1"
+	"dsp_volume"		"1"
 
 	"playsoundscape"
 	{
@@ -846,41 +856,41 @@
 
 "bangclaw.car_tunnel"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
+	"dsp"				"1"
+	"dsp_volume"		"1"
 
 	"playlooping"
 	{
-		"volume"	"0.25"
-		"pitch"		"100"
-		"wave"		"ambient/atmosphere/cargo_hold2.wav"
+		"volume"		"0.25"
+		"pitch"			"100"
+		"wave"			"ambient/atmosphere/cargo_hold2.wav"
 	}
 
 	"playrandom"
 	{
-		"time"		"10,30"
-		"volume"	"0.05,0.15"
-		"pitch"		"95,105"
+		"time"			"10,30"
+		"volume"		"0.05,0.15"
+		"pitch"			"95,105"
 
 		"rndwave"
 		{
-			"wave"	"ambient/machines/truck_pass_distant1.wav"
-			"wave"	"ambient/machines/truck_pass_distant2.wav"
-			"wave"	"ambient/machines/truck_pass_distant3.wav"
-			"wave"	"ambient/machines/truck_pass_overhead1.wav"
+			"wave"		"ambient/machines/truck_pass_distant1.wav"
+			"wave"		"ambient/machines/truck_pass_distant2.wav"
+			"wave"		"ambient/machines/truck_pass_distant3.wav"
+			"wave"		"ambient/machines/truck_pass_overhead1.wav"
 		}
 	}
 
 	"playsoundscape"
 	{
-		"name"		"bangclaw.light_combat_atmosphere"
-		"volume"	"0.5"
+		"name"			"bangclaw.light_combat_atmosphere"
+		"volume"		"0.5"
 	}
 
 	"playsoundscape"
 	{
-		"name"		"bangclaw.muffled_light_combat"
-		"volume"	"1.0"
+		"name"			"bangclaw.muffled_light_combat"
+		"volume"		"1.0"
 	}
 }
 
@@ -984,8 +994,8 @@
 
 "bangclaw.general_small_tunnel"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
+	"dsp"				"1"
+	"dsp_volume"		"1"
 
 	"playlooping"
 	{
@@ -1006,8 +1016,8 @@
 
 "bangclaw.indoor"
 {
-	"dsp"	"1"
-	"dsp_volume"	"1"
+	"dsp"				"1"
+	"dsp_volume"		"1"
 
 	"playlooping"
 	{
@@ -1020,6 +1030,6 @@
 
 "bangclaw.nothing"
 {
-	"dsp"	"9"
-	"dsp_volume"	"1"
+	"dsp"				"9"
+	"dsp_volume"		"1"
 }
