@@ -659,20 +659,6 @@
 
 	"playsoundscape"
 	{
-		"name"				"bangclaw.tunnel_water"
-		"volume"			"0.75"
-		"positionoverride"	"0"
-	}
-
-	"playsoundscape"
-	{
-		"name"				"bangclaw.tunnel_water"
-		"volume"			"0.75"
-		"positionoverride"	"1"
-	}
-
-	"playsoundscape"
-	{
 		"name"				"bangclaw.tunnel_light_loud"
 		"volume"			"0.2"
 		"positionoverride"	"2"
@@ -706,35 +692,9 @@
 
 	"playsoundscape"
 	{
-		"name"				"bangclaw.tunnel_water"
-		"volume"			"1.0"
-		"positionoverride"	"0"
-	}
-
-	"playsoundscape"
-	{
-		"name"				"bangclaw.tunnel_water"
-		"volume"			"1.0"
-		"positionoverride"	"1"
-	}
-
-	"playsoundscape"
-	{
 		"name"				"bangclaw.tunnel_light_loud"
 		"volume"			"0.2"
 		"positionoverride"	"2"
-	}
-}
-
-
-"bangclaw.tunnel_water"
-{
-	"playlooping"
-	{
-		"volume"		"1"
-		"soundlevel"	"SNDLVL_50dB"
-		"pitch"			"100"
-		"wave"			"ambient/creatures/leech_water_churn_loop2.wav"
 	}
 }
 
