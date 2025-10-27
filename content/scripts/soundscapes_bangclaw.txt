@@ -111,7 +111,7 @@
 }
 
 
-"bangclaw.tunnel"
+"bangclaw.outside_quiet"
 {
 	"dsp"				"1"
 
