@@ -430,18 +430,34 @@
 		"volume"		"0.5"
 	}
 
-	// Один источник случайного воспроизведения пения птиц
+	// Главный звук птиц, редкие крики
 	"playrandom"
 	{
 		"volume"		"0.25,0.4"
 		"pitch"			"90,115"
-		"time"			"10,35"
+		"time"			"12,40"
 		"soundlevel"	"SNDLVL_80dB"
 		"position"		"random"
 		"rndwave"
 		{
 			"wave"		"rp_bangclaw/ambient/bird1.mp3"
 			"wave"		"rp_bangclaw/ambient/bird2.mp3"
+			"wave"		"rp_bangclaw/ambient/bird3.mp3"
+			"wave"		"rp_bangclaw/ambient/bird4.mp3"
+		}
+	}
+
+	// Второй поток, редкие "ответные" птицы, звучат мягче и тише
+	"playrandom"
+	{
+		"volume"		"0.15,0.25"
+		"pitch"			"90,110"
+		"time"			"20,60"
+		"soundlevel"	"SNDLVL_75dB"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"		"rp_bangclaw/ambient/bird1.mp3"
 			"wave"		"rp_bangclaw/ambient/bird3.mp3"
 			"wave"		"rp_bangclaw/ambient/bird4.mp3"
 		}
