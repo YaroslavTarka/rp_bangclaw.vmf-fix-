@@ -21,9 +21,9 @@ The map is also available on the [Steam Workshop][workshop_rp_bangclaw_fix]
 3. 🟨 **VMF YELLOW** — all textures, brushes, and sounds have been fixed  
 *Currently the main version with changes  
 Further optimization improvements are planned*
-4. 🟩 **VMF GREEN** — an expanded version, continuing the map’s development[^2]
+4. 🟩 **VMF GREEN** — an expanded version, continuing the map’s development[^1]
 
-[^2]: 🟩 **Green** is based on the latest **Yellow** changes. Development will start after finishing work on Yellow  
+[^1]: 🟩 **Green** is based on the latest **Yellow** changes. Development will start after finishing work on Yellow  
 This version is not included in the current repository and is available in a [separate repository][github_green]
 
 ### 🐞 Report a Bug
