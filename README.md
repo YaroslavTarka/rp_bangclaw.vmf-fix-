@@ -57,6 +57,8 @@ The project is developed by Garry’s Mod community enthusiasts:
 - [**YaroslavTarka**][steam_tarka] — Project founder  
 - [**Web_Artur**][steam_webartur] (*boxden*) — Made a significant contribution
 
+	[![Contributors][badge_contributors]][contributors]
+
 ### 🔗 External Links
 
 - 🧰 [**Yellow version page on Steam Workshop**][workshop_rp_bangclaw_fix]  
@@ -127,6 +129,8 @@ The project is developed by Garry’s Mod community enthusiasts:
 - [**YaroslavTarka**][steam_tarka] — Основатель проекта  
 - [**Web_Artur**][steam_webartur] (*boxden*) — Внёс огромный вклад
 
+	[![Contributors][badge_contributors]][contributors]
+
 ### 🔗 Внешние ссылки
 
 - 🧰 [**Страница Yellow версии в Мастерской Steam**][workshop_rp_bangclaw_fix]
@@ -152,9 +156,11 @@ The project is developed by Garry’s Mod community enthusiasts:
 [badge_hammer++]: https://img.shields.io/badge/Editor-Hammer++-9b4fff?logo=sourceengine&logoColor=white
 [badge_github_issues]: https://img.shields.io/github/issues/YaroslavTarka/rp_bangclaw.vmf-fix-?&logo=github&logoColor=white
 [badge_github_stars]: https://img.shields.io/github/stars/YaroslavTarka/rp_bangclaw.vmf-fix-?style=social
+[badge_contributors]: https://contrib.rocks/image?repo=YaroslavTarka/rp_bangclaw.vmf-fix-
 
 <!-- Links for Badges -->
 [game]: https://store.steampowered.com/app/4000
 [hammer++]: https://ficool2.github.io/HammerPlusPlus-Website
 [starsgazers]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/stargazers
 [issues]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/issues
+[contributors]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/graphs/contributors
