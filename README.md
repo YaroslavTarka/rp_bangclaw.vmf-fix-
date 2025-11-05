@@ -155,7 +155,7 @@ The project is developed by Garry’s Mod community enthusiasts:
 [badge_hammer]: https://img.shields.io/badge/Editor-Hammer-2a6ca6?logo=sourceengine&logoColor=white
 [badge_hammer++]: https://img.shields.io/badge/Editor-Hammer++-9b4fff?logo=sourceengine&logoColor=white
 [badge_github_issues]: https://img.shields.io/github/issues/YaroslavTarka/rp_bangclaw.vmf-fix-?&logo=github&logoColor=white
-[badge_github_stars]: https://img.shields.io/github/stars/YaroslavTarka/rp_bangclaw.vmf-fix-?style=social
+[badge_github_stars]: https://img.shields.io/github/stars/YaroslavTarka/rp_bangclaw.vmf-fix-?style=flat&logo=github
 [badge_contributors]: https://contrib.rocks/image?repo=YaroslavTarka/rp_bangclaw.vmf-fix-
 
 <!-- Links for Badges -->
