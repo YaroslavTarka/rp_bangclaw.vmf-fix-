@@ -6,7 +6,7 @@
 [![GitHub Issues][badge_github_issues]][issues]
 [![GitHub Stars][badge_github_stars]][starsgazers]
 
-### Welcome!
+### 👋 Welcome!
 
 This repository contains a **corrected and improved source** of the **rp_bangclaw** map for Garry’s Mod  
 It includes an editable **.VMF** version for **Hammer** and **Hammer++**  
@@ -78,7 +78,7 @@ The project is developed by Garry’s Mod community enthusiasts:
 [![GitHub Issues][badge_github_issues]][issues]
 [![GitHub Stars][badge_github_stars]][starsgazers]
 
-### Добро пожаловать!
+### 👋 Добро пожаловать!
 
 Репозиторий содержит исправленный и улучшенный исходник карты **rp_bangclaw** для Garry’s Mod  
 Включает редактируемую версию **.VMF** для **Hammer** и **Hammer++**  
