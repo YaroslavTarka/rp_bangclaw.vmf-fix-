@@ -1,7 +1,0 @@
-VertexLitGeneric
-{
-	$basetexture models/props_c17/door01a
-	$basealphaenvmapmask 1
-	$surfaceprop wood
-	$envmap env_cubemap
-}
