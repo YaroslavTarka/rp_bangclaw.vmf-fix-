@@ -1,5 +1,5 @@
 LightmappedGeneric
 {
-	$basetexture building_template\building_template003a
+	$basetexture building_template/building_template003a
 	$surfaceprop concrete
 }

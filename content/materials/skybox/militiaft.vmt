@@ -1,6 +1,6 @@
 UnlitGeneric
 {
-	$basetexture skybox\militiaFT
+	$basetexture skybox/militiaFT
 	$nofog 1
 	$ignorez 1
 }
