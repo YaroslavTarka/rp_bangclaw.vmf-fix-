@@ -311,9 +311,9 @@
 		"position"		"random"
 		"rndwave"
 		{
-			"wave"		"rp_bangclaw/ambient/iron_moaning1.mp3"
-			"wave"		"rp_bangclaw/ambient/squeak_metal1.mp3"
-			"wave"		"rp_bangclaw/ambient/squeak_metal2.mp3"
+			"wave"		"rp_bangclaw/ambient/iron_moaning1.ogg"
+			"wave"		"rp_bangclaw/ambient/squeak_metal1.ogg"
+			"wave"		"rp_bangclaw/ambient/squeak_metal2.ogg"
 		}
 	}
 
@@ -325,8 +325,8 @@
 		"position"		"random"
 		"rndwave"
 		{
-			"wave"		"rp_bangclaw/ambient/organic_moan1.mp3"
-			"wave"		"rp_bangclaw/ambient/organic_moan2.mp3"
+			"wave"		"rp_bangclaw/ambient/organic_moan1.ogg"
+			"wave"		"rp_bangclaw/ambient/organic_moan2.ogg"
 		}
 	}
 
@@ -338,9 +338,9 @@
 		"position"		"random"
 		"rndwave"
 		{
-			"wave"		"rp_bangclaw/ambient/rats_panic_1.mp3"
-			"wave"		"rp_bangclaw/ambient/rats_panic_2.mp3"
-			"wave"		"rp_bangclaw/ambient/rats_panic_3.mp3"
+			"wave"		"rp_bangclaw/ambient/rats_panic_1.ogg"
+			"wave"		"rp_bangclaw/ambient/rats_panic_2.ogg"
+			"wave"		"rp_bangclaw/ambient/rats_panic_3.ogg"
 		}
 	}
 }
@@ -440,10 +440,10 @@
 		"position"		"random"
 		"rndwave"
 		{
-			"wave"		"rp_bangclaw/ambient/bird1.mp3"
-			"wave"		"rp_bangclaw/ambient/bird2.mp3"
-			"wave"		"rp_bangclaw/ambient/bird3.mp3"
-			"wave"		"rp_bangclaw/ambient/bird4.mp3"
+			"wave"		"rp_bangclaw/ambient/bird1.ogg"
+			"wave"		"rp_bangclaw/ambient/bird2.ogg"
+			"wave"		"rp_bangclaw/ambient/bird3.ogg"
+			"wave"		"rp_bangclaw/ambient/bird4.ogg"
 		}
 	}
 
@@ -457,9 +457,9 @@
 		"position"		"random"
 		"rndwave"
 		{
-			"wave"		"rp_bangclaw/ambient/bird1.mp3"
-			"wave"		"rp_bangclaw/ambient/bird3.mp3"
-			"wave"		"rp_bangclaw/ambient/bird4.mp3"
+			"wave"		"rp_bangclaw/ambient/bird1.ogg"
+			"wave"		"rp_bangclaw/ambient/bird3.ogg"
+			"wave"		"rp_bangclaw/ambient/bird4.ogg"
 		}
 	}
 }
@@ -591,9 +591,9 @@
 		"position"		"random"
 		"rndwave"
 		{
-			"wave"		"rp_bangclaw/ambient/iron_moaning1.mp3"
-			"wave"		"rp_bangclaw/ambient/squeak_metal1.mp3"
-			"wave"		"rp_bangclaw/ambient/squeak_metal2.mp3"
+			"wave"		"rp_bangclaw/ambient/iron_moaning1.ogg"
+			"wave"		"rp_bangclaw/ambient/squeak_metal1.ogg"
+			"wave"		"rp_bangclaw/ambient/squeak_metal2.ogg"
 		}
 	}
 
@@ -606,8 +606,8 @@
 		"position"		"random"
 		"rndwave"
 		{
-			"wave"		"rp_bangclaw/ambient/iron_moaning1.mp3"
-			"wave"		"rp_bangclaw/ambient/squeak_metal2.mp3"
+			"wave"		"rp_bangclaw/ambient/iron_moaning1.ogg"
+			"wave"		"rp_bangclaw/ambient/squeak_metal2.ogg"
 		}
 	}
 }
