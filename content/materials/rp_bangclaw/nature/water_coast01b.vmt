@@ -10,7 +10,7 @@
 	"$refractamount" "5"
 
 	"$reflecttexture" "_rt_WaterReflection"
-	"$reflectamount" "1"
+	"$reflectamount" "0"
 
 	"$scale" "[1 1]"
 
@@ -19,7 +19,6 @@
 
 	"$surfaceprop" "water"
 	"$bottommaterial" "nature/water_coast01_beneath"
-	"$bumpframe" "0"
 
 	"$fogenable" 1
 	"$fogcolor" "{7 16 18}"
@@ -29,17 +28,4 @@
 
 	"$scroll1" "[.01 .01 .05]"
 	"$scroll2" "[-.025 .025 .075]"
-
-	"Proxies"
-	{
-		"TextureScroll"
-		{
-			"texturescrollvar" "$bumptransform"
-			"texturescrollrate" .02
-			"texturescrollangle" 25.00
-		}
-		"WaterLOD"
-		{
-		}
-	}
 }
