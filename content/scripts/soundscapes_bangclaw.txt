@@ -1,5 +1,5 @@
 // rp_bangclaw soundscape
-// Modified: Web_Artur (boxden), October 2025
+// Modified: Web_Artur (boxden), November 2025
 
 // DSP Effects
 // 0 : "Normal (off)"
@@ -571,6 +571,43 @@
 			"wave"		"ambient/water/distant_wave1.wav"
 			"wave"		"ambient/water/distant_wave2.wav"
 			"wave"		"ambient/water/distant_wave3.wav"
+		}
+	}
+}
+
+
+"bangclaw.basement_pipes"
+{
+	"dsp"				"1"
+	"dsp_volume"		"1"
+	"fadetime"			"3"
+
+	"playrandom"
+	{
+		"time"			"10,25"
+		"volume"		"0.25,0.45"
+		"pitch"			"90,110"
+		"soundlevel"	"SNDLVL_85dB"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"		"rp_bangclaw/ambient/iron_moaning1.mp3"
+			"wave"		"rp_bangclaw/ambient/squeak_metal1.mp3"
+			"wave"		"rp_bangclaw/ambient/squeak_metal2.mp3"
+		}
+	}
+
+	"playrandom"
+	{
+		"time"			"30,70"
+		"volume"		"0.4,0.6"
+		"pitch"			"80,100"
+		"soundlevel"	"SNDLVL_90dB"
+		"position"		"random"
+		"rndwave"
+		{
+			"wave"		"rp_bangclaw/ambient/iron_moaning1.mp3"
+			"wave"		"rp_bangclaw/ambient/squeak_metal2.mp3"
 		}
 	}
 }
