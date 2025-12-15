@@ -8,7 +8,7 @@
 
 ### 👋 Welcome!
 
-This repository contains a **corrected and improved source** of the **rp_bangclaw** map for Garry’s Mod  
+This repository contains a corrected and improved source of the **rp_bangclaw** map for Garry’s Mod  
 It includes an editable **.VMF** version for **Hammer** and **Hammer++**  
 as well as content to fix visual bugs and other map issues
 
@@ -16,8 +16,8 @@ The map is also available on the [Steam Workshop][workshop_rp_bangclaw_fix]
 
 ### 📦 VMF Files
 
-1. 🗺️ **VMF Original** — the original workshop map, unchanged  
-2. 🟥 **VMF RED** — fixed textures that were broken due to cubemaps  
+1. 🗺️ **VMF Original** — the original workshop map, unchanged
+2. 🟥 **VMF RED** — fixed textures that were broken due to cubemaps
 3. 🟨 **VMF YELLOW** — all textures, brushes, and sounds have been fixed  
 *Currently the main version with changes  
 Further optimization improvements are planned*
@@ -54,23 +54,23 @@ But we use a [**modified VVIS++ visibility compiler**][vvis++_ficool2]
 
 The project is developed by Garry’s Mod community enthusiasts:
 
-- [**YaroslavTarka**][steam_tarka] — Project founder  
+- [**YaroslavTarka**][steam_tarka] — Project founder
 - [**Web_Artur**][steam_webartur] (*boxden*) — Made a significant contribution
 
 	[![Contributors][badge_contributors]][contributors]
 
 ### 🔗 External Links
 
-- 🧰 [**Yellow version page on Steam Workshop**][workshop_rp_bangclaw_fix]  
-- 🟩 [**Improved rp_bangclaw_green repository**][github_green]  
-- 🏙️ [**Original rp_bangclaw map**][workshop_rp_bangclaw_base]  
+- 🧰 [**Yellow version page on Steam Workshop**][workshop_rp_bangclaw_fix]
+- 🟩 [**Improved rp_bangclaw_green repository**][github_green]
+- 🏙️ [**Original rp_bangclaw map**][workshop_rp_bangclaw_base]
 - ⚙️ [**Improved VVIS++ compiler**][vvis++_ficool2] | [*Learn more about VVIS++*][vvis++_VDC]
 
 💬 If this project helped you — leave a ⭐ on GitHub or a review on the Workshop!
 
 ---
 
-# 🏙️ rp_bangclaw_yellow
+# 🏙️ Исправления и улучшения rp_bangclaw_yellow
 
 [![Game][badge_game]][game]
 [![Editor Hammer][badge_hammer]][game]
@@ -88,8 +88,8 @@ The project is developed by Garry’s Mod community enthusiasts:
 
 ### 📦 VMF Файлы
 
-1. 🗺️ **VMF Original** — оригинальная карта из воркшопа, без изменений  
-2. 🟥 **VMF RED** — исправлены текстуры, повреждённые из-за cubemap  
+1. 🗺️ **VMF Original** — оригинальная карта из воркшопа, без изменений
+2. 🟥 **VMF RED** — исправлены текстуры, повреждённые из-за cubemap
 3. 🟨 **VMF YELLOW** — исправлены все текстуры, браши, звуки  
 *На данный момент является основной версией с изменениями  
 Планируется дальнейшее улучшение оптимизации*
@@ -105,28 +105,28 @@ The project is developed by Garry’s Mod community enthusiasts:
 
 ### 🔧 Для разработчиков
 
-1. **Скачайте или клонируйте репозиторий**  
+1. **Загрузите или клонируйте репозиторий**  
 Репозиторий содержит все исходные VMF-файлы и дополнительный контент  
 *Распакуйте архив, если вы скачали репозиторий в виде ZIP-файла 🗜️*
 2. **Переместите папку `content` в директорию:**
 	```
 	..\steamapps\common\GarrysMod\garrysmod\addons
 	```
-*Вы также можете хранить репозиторий в другом месте, указав путь к нему в `mount.cfg`  
-Недостаток этого метода в том, что игра не видит папку `scripts`  
-Из-за этого невозможно наблюдать изменения в `soundscape_bangclaw.txt` в реальном времени*
+*Также можно хранить репозиторий в другом месте, указав путь к нему в `mount.cfg`  
+Недостаток данного метода в том, что игра не видит папку `scripts`  
+Из-за этого невозможно наблюдать изменения `soundscape_bangclaw.txt` в реальном времени*
 
 ### ⚙️ Параметры компиляции
 
-Для данной версии мы не используем дополнительные параметры **VBSP** и **VRAD**  
-Но мы используем [**модифицированный компилятор видимости VVIS++**][vvis++_ficool2]  
+В данной версии не используются дополнительные параметры **VBSP** и **VRAD**  
+Но используется [**модифицированный компилятор видимости VVIS++**][vvis++_ficool2]  
 *Подробнее о **VVIS++** вы можете ознакомиться на [**Valve Developer Community**][vvis++_VDC]*
 
 ### 🛠️ Разработчики
 
 Проект развивается энтузиастами сообщества Garry’s Mod
 
-- [**YaroslavTarka**][steam_tarka] — Основатель проекта  
+- [**YaroslavTarka**][steam_tarka] — Основатель проекта
 - [**Web_Artur**][steam_webartur] (*boxden*) — Внёс огромный вклад
 
 	[![Contributors][badge_contributors]][contributors]
