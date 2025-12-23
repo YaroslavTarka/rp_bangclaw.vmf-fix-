@@ -7,10 +7,10 @@
 	"$envmap" "env_cubemap"
 	"%tooltexture" "nature/water_frame01_normal"
 	"$refracttexture" "_rt_WaterRefraction"
-	"$refractamount" "5"
+	"$refractamount" "1"
 
 	"$reflecttexture" "_rt_WaterReflection"
-	"$reflectamount" "0"
+	"$reflectamount" ".075"
 
 	"$scale" "[1 1]"
 
