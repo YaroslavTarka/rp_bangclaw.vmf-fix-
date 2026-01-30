@@ -5,6 +5,7 @@
 [![Editor Hammer++][badge_hammer++]][hammer++]
 [![GitHub Issues][badge_github_issues]][issues]
 [![GitHub Stars][badge_github_stars]][starsgazers]
+[![GitHub Downloads][badge_github_downloads]][releases]
 
 ### 👋 Welcome!
 
@@ -77,6 +78,7 @@ The project is developed by Garry’s Mod community enthusiasts:
 [![Editor Hammer++][badge_hammer++]][hammer++]
 [![GitHub Issues][badge_github_issues]][issues]
 [![GitHub Stars][badge_github_stars]][starsgazers]
+[![GitHub Downloads][badge_github_downloads]][releases]
 
 ### 👋 Добро пожаловать!
 
@@ -157,6 +159,7 @@ The project is developed by Garry’s Mod community enthusiasts:
 [badge_github_issues]: https://img.shields.io/github/issues/YaroslavTarka/rp_bangclaw.vmf-fix-?&logo=github&logoColor=white
 [badge_github_stars]: https://img.shields.io/github/stars/YaroslavTarka/rp_bangclaw.vmf-fix-?style=flat&logo=github
 [badge_contributors]: https://contrib.rocks/image?repo=YaroslavTarka/rp_bangclaw.vmf-fix-
+[badge_github_downloads]: https://img.shields.io/github/downloads/YaroslavTarka/rp_bangclaw.vmf-fix-/total
 
 <!-- Links for Badges -->
 [game]: https://store.steampowered.com/app/4000
@@ -164,3 +167,4 @@ The project is developed by Garry’s Mod community enthusiasts:
 [starsgazers]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/stargazers
 [issues]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/issues
 [contributors]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/graphs/contributors
+[releases]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/releases
