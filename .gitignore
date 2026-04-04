@@ -5,3 +5,4 @@
 *.backup
 *.sw.vtx
 *.dx80.vtx
+*.blend[0-9]*
