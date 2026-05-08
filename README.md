@@ -2,54 +2,67 @@
 
 [![Game][badge_game]][game]
 [![Editor Hammer][badge_hammer]][game]
-[![Editor Hammer++][badge_hammer++]][hammer++]
+[![Editor Hammer++][badge_hammerplusplus]][hammerplusplus]
 [![GitHub Issues][badge_github_issues]][issues]
-[![GitHub Stars][badge_github_stars]][starsgazers]
+[![GitHub Stars][badge_github_stars]][stargazers]
 [![GitHub Downloads][badge_github_downloads]][releases]
 
 ### 👋 Welcome!
 
-This repository contains a corrected and improved source of the **rp_bangclaw** map for Garry’s Mod  
-It includes an editable **.VMF** version for **Hammer** and **Hammer++**  
-as well as content to fix visual bugs and other map issues
+This repository contains a fixed and improved source version of the **rp_bangclaw** map for Garry’s Mod  
+It includes an editable **rp_bangclaw.vmf** for **Hammer** and **Hammer++**  
+As well as additional content used to fix visual bugs and other map issues
+
+### 📦 Repository Contents
+
+- 📁 **Content Folder** — Used assets, fixed textures, and models
+- 📁 **Source Folder** — `.blend` files with fixed model collisions
+- 🗺️ **rp_bangclaw.vmf** — Editable `.vmf` file for the "Hammer" map editor
+- 📄 **CHANGELOG.md** — List of all changes made since the repository was created
 
 The map is also available on the [Steam Workshop][workshop_rp_bangclaw_fix]
-
-### 📦 VMF Files
-
-1. 🗺️ **VMF Original** — the original workshop map, unchanged
-2. 🟥 **VMF RED** — fixed textures that were broken due to cubemaps
-3. 🟨 **VMF YELLOW** — all textures, brushes, and sounds have been fixed  
-*Currently the main version with changes  
-Further optimization improvements are planned*
-4. 🟩 **VMF GREEN** — an expanded version, continuing the map’s development[^1]
-
-[^1]: 🟩 **Green** is based on the latest **Yellow** changes. Development will start after finishing work on Yellow  
-This version is not included in the current repository and is available in a [separate repository][github_green]
 
 ### 🐞 Report a Bug
 
 Found a bug or want to suggest an improvement?  
-[Create an issue][github_new_issue] or contact on **Discord**: `yaroslavtarka`
+[`Create an issue`][github_new_issue] or contact us on **Discord**: `yaroslavtarka`, `web_artur`
 
 ### 🔧 For Developers
 
 1. **Download or clone the repository**  
-The repository contains all source VMF files and additional content  
-*Unpack the archive if you downloaded the repository as a ZIP file 🗜️*
-2. **Move the `content` folder to the directory:**
-	```
-	..\steamapps\common\GarrysMod\garrysmod\addons
-	```
-*You can also keep the repository elsewhere by specifying its path in `mount.cfg`  
-The drawback of this method is that the game cannot see the `scripts` folder,  
-so real-time changes to `soundscape_bangclaw.txt` cannot be observed*
+*Extract the archive if you downloaded it as a ZIP file 🗜️*
 
-### ⚙️ Compilation Parameters
+2. **Move the `content` folder to:**  
+	`..\steamapps\common\GarrysMod\garrysmod\addons`
 
-For this version, we do not use additional **VBSP** or **VRAD** parameters  
-But we use a [**modified VVIS++ visibility compiler**][vvis++_ficool2]  
-*Learn more about **VVIS++** on the [Valve Developer Community][vvis++_VDC]*
+The `content` folder can be stored anywhere on your drive, but you must specify its path in `mount.cfg`  
+The configuration file is located at: `..\common\GarrysMod\garrysmod\cfg`  
+Example path:
+```
+	"content_bangclaw"	"F:\Github\rp_bangclaw.vmf-fix-\content"
+```
+*The downside of this method is that the game does not detect the `scripts` folder  
+Because of this, `soundscape_bangclaw.txt` will not work, meaning all ambient sounds will be missing*
+
+### ⚙️ Compile Parameters
+
+We use modified [**VBSP++**, **VVIS++**, and **VRAD++**][ficool2_toolsplusplus] compilers by ficool2  
+These compilers fix many issues and significantly improve compilation speed
+
+| Stage       | Parameters                                                          |
+|-------------|---------------------------------------------------------------------|
+| **VBSP++**  | `-BlockSize 2048`                                                   |
+| **VVIS++**  | _no parameters_                                                     |
+| **VRAD++**  | `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`  |
+
+How to install the compilers:
+1. Download the [latest version of the tools][ficool2_toolsplusplus_download]
+2. Open the archive -> `tools_plusplus` folder -> `tools`
+3. Extract the 3 files `vbspplusplus.exe`, `vradplusplus.exe`, `vvisplusplus.exe` into `..\common\GarrysMod\bin\win64`
+4. In Hammer/Hammer++, go to `Tools` -> `Options` -> `Build Programs` tab
+5. For `BSP`, `VIS`, and `RAD executable`, select the corresponding compiler with the `plusplus` suffix
+
+*You can learn more about these compilers on the [**Valve Developer Community**][ficool2_toolsplusplus_VDC]*
 
 ### 🛠️ Developers
 
@@ -62,67 +75,80 @@ The project is developed by Garry’s Mod community enthusiasts:
 
 ### 🔗 External Links
 
-- 🧰 [**Yellow version page on Steam Workshop**][workshop_rp_bangclaw_fix]
-- 🟩 [**Improved rp_bangclaw_green repository**][github_green]
+- 🧰 [**Addon on Steam Workshop**][workshop_rp_bangclaw_fix]
+- 🟩 [**Repository rp_bangclaw_enhanced**][github_green]
 - 🏙️ [**Original rp_bangclaw map**][workshop_rp_bangclaw_base]
-- ⚙️ [**Improved VVIS++ compiler**][vvis++_ficool2] | [*Learn more about VVIS++*][vvis++_VDC]
+- ⚙️ [**Improved compilers by ficool2**][ficool2_toolsplusplus] | [*Learn more about in VDC*][ficool2_toolsplusplus_VDC]
 
 💬 If this project helped you — leave a ⭐ on GitHub or a review on the Workshop!
 
 ---
 
-# 🏙️ Исправления и улучшения rp_bangclaw_yellow
+# 🏙️ Исправления и улучшения rp_bangclaw
 
 [![Game][badge_game]][game]
 [![Editor Hammer][badge_hammer]][game]
-[![Editor Hammer++][badge_hammer++]][hammer++]
+[![Editor Hammer++][badge_hammerplusplus]][hammerplusplus]
 [![GitHub Issues][badge_github_issues]][issues]
-[![GitHub Stars][badge_github_stars]][starsgazers]
+[![GitHub Stars][badge_github_stars]][stargazers]
 [![GitHub Downloads][badge_github_downloads]][releases]
 
 ### 👋 Добро пожаловать!
 
 Репозиторий содержит исправленный и улучшенный исходник карты **rp_bangclaw** для Garry’s Mod  
-Включает редактируемую версию **.VMF** для **Hammer** и **Hammer++**  
-А также контент для исправления визуальных багов и других проблем карты
+Включает в себя редактируемую версию **rp_bangclaw.vmf** для **Hammer** и **Hammer++**  
+Также контент для исправления визуальных багов и других проблем карты
+
+### 📦 Содержание репозитория
+
+- 📁 **Папка Content** — Используемые ассеты, исправленые текстуры, модели
+- 📁 **Папка Source** — Файлы `.blend` с исправлеными коллизиями моделей
+- 🗺️ **rp_bangclaw.vmf** — Редактируемый `.vmf` файл, для редактора карт "Hammer"
+- 📄 **CHANGELOG.md** — Список со всеми изменениями, с момента создания репозитория
 
 Карта также доступна в [Steam Workshop][workshop_rp_bangclaw_fix]
 
-### 📦 VMF Файлы
-
-1. 🗺️ **VMF Original** — оригинальная карта из воркшопа, без изменений
-2. 🟥 **VMF RED** — исправлены текстуры, повреждённые из-за cubemap
-3. 🟨 **VMF YELLOW** — исправлены все текстуры, браши, звуки  
-*На данный момент является основной версией с изменениями  
-Планируется дальнейшее улучшение оптимизации*
-4. 🟩 **VMF GREEN** — расширенная версия, продолжающая развитие карты[^2]
-
-[^2]: 🟩 **Green** основана на последних изменениях **Yellow**. Разработка начнётся после завершения работы над Yellow  
-Данная версия не включена в текущий репозиторий и доступна в [отдельном репозитории][github_green]
-
 ### 🐞 Сообщить об ошибке
 
-Нашли ошибку или хотите предложить улучшение?  
-[Создайте issue][github_new_issue] или сообщите в **Discord**: `yaroslavtarka`
+Нашли баг или хотите предложить улучшение?  
+[`Создайте issue`][github_new_issue] или сообщите нам в **Discord**: `yaroslavtarka`, `web_artur`
 
 ### 🔧 Для разработчиков
 
 1. **Загрузите или клонируйте репозиторий**  
-Репозиторий содержит все исходные VMF-файлы и дополнительный контент  
-*Распакуйте архив, если вы скачали репозиторий в виде ZIP-файла 🗜️*
-2. **Переместите папку `content` в директорию:**
-	```
-	..\steamapps\common\GarrysMod\garrysmod\addons
-	```
-*Также можно хранить репозиторий в другом месте, указав путь к нему в `mount.cfg`  
-Недостаток данного метода в том, что игра не видит папку `scripts`  
-Из-за этого невозможно наблюдать изменения `soundscape_bangclaw.txt` в реальном времени*
+*Распакуйте архив, если вы скачали всё одним ZIP-файлом 🗜️*
+
+2. **Переместите папку `content` в директорию:**  
+	`..\steamapps\common\GarrysMod\garrysmod\addons`
+
+Папку `content` можно хранить в любом месте на диске, но нужно указав путь к нему в `mount.cfg`  
+Файл конфигурации находиться по пути: ```..\common\GarrysMod\garrysmod\cfg```  
+Примерный путь:
+```
+	"content_bangclaw"	"F:\Github\rp_bangclaw.vmf-fix-\content"
+```
+*Недостаток данного метода в том, что игра не видит папку `scripts`  
+Из-за этого `soundscape_bangclaw.txt` не будет работать, соответственно пропадут все звуки*
 
 ### ⚙️ Параметры компиляции
 
-В данной версии не используются дополнительные параметры **VBSP** и **VRAD**  
-Но используется [**модифицированный компилятор видимости VVIS++**][vvis++_ficool2]  
-*Подробнее о **VVIS++** вы можете ознакомиться на [**Valve Developer Community**][vvis++_VDC]*
+Мы используем модифицированные компиляторы [**VBSP++**, **VVIS++** и **VRAD++**][ficool2_toolsplusplus] от ficool2  
+Эти компиляторы решают множество проблем, а также повышаюсь скорость компиляции в разы
+
+| Этап        | Параметры                                                           |
+|-------------|---------------------------------------------------------------------|
+| **VBSP++**  | `-BlockSize 2048`                                                   |
+| **VVIS++**  | _без параметров_                                                    |
+| **VRAD++**  | `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`  |
+
+Как установить комиляторы:
+1. Загрузи [последнюю версию инструментов][ficool2_toolsplusplus_download]
+2. Открой архив -> папку `tools_plusplus` -> `tools` 
+3. Извлеки 3 файла `vbspplusplus.exe`,`vradplusplus.exe`,`vvisplusplus.exe` в директорию `..\common\GarrysMod\bin\win64`
+4. В Hammer/Hammer++ перейди в `Tools` -> `Options` -> Вкладка `Build Programs`
+5. Для `BSP`, `VIS`, `RAD executable` укажи соответствующий компилятор с окончание `plusplus`
+
+*Подробнее о компиляторах можно ознакомиться на [**Valve Developer Community**][ficool2_toolsplusplus_VDC]*
 
 ### 🛠️ Разработчики
 
@@ -135,10 +161,10 @@ The project is developed by Garry’s Mod community enthusiasts:
 
 ### 🔗 Внешние ссылки
 
-- 🧰 [**Страница Yellow версии в Мастерской Steam**][workshop_rp_bangclaw_fix]
-- 🟩 [**Репозиторий улучшенной версии rp_bangclaw_green**][github_green]
+- 🧰 [**Страница в Мастерской Steam**][workshop_rp_bangclaw_fix]
+- 🟩 [**Репозиторий rp_bangclaw_enhanced**][github_green]
 - 🏙️ [**Оригинальная карта rp_bangclaw**][workshop_rp_bangclaw_base]
-- ⚙️ [**Улучшенный компилятор VVIS++**][vvis++_ficool2] | [*Подробнее о VVIS++*][vvis++_VDC]
+- ⚙️ [**Улучшенные компиляторы от ficool2**][ficool2_toolsplusplus] | [*Подробнее о компиляторах*][ficool2_toolsplusplus_VDC]
 
 💬 Если проект вам помог — поставьте ⭐ на GitHub или оставьте отзыв в Workshop!
 
@@ -149,13 +175,14 @@ The project is developed by Garry’s Mod community enthusiasts:
 [steam_webartur]: https://steamcommunity.com/profiles/76561198115550963
 [github_new_issue]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/issues/new
 [github_green]: https://github.com/YaroslavTarka/rp_bangclaw_green
-[vvis++_ficool2]: https://ficool2.github.io/HammerPlusPlus-Website/tools.html
-[vvis++_VDC]: https://developer.valvesoftware.com/wiki/VVIS%2B%2B
+[ficool2_toolsplusplus]: https://ficool2.github.io/HammerPlusPlus-Website/tools.html
+[ficool2_toolsplusplus_VDC]: https://developer.valvesoftware.com/wiki/Tools%2B%2B
+[ficool2_toolsplusplus_download]: https://github.com/ficool2/misc_tools/releases/download/v1/tools_plusplus.zip
 
 <!-- Badges from shields.io -->
 [badge_game]: https://img.shields.io/badge/Game-Garry's_Mod-1b2838?logo=steam&logoColor=white
 [badge_hammer]: https://img.shields.io/badge/Editor-Hammer-2a6ca6?logo=sourceengine&logoColor=white
-[badge_hammer++]: https://img.shields.io/badge/Editor-Hammer++-9b4fff?logo=sourceengine&logoColor=white
+[badge_hammerplusplus]: https://img.shields.io/badge/Editor-Hammer++-9b4fff?logo=sourceengine&logoColor=white
 [badge_github_issues]: https://img.shields.io/github/issues/YaroslavTarka/rp_bangclaw.vmf-fix-?&logo=github&logoColor=white
 [badge_github_stars]: https://img.shields.io/github/stars/YaroslavTarka/rp_bangclaw.vmf-fix-?style=flat&logo=github
 [badge_contributors]: https://contrib.rocks/image?repo=YaroslavTarka/rp_bangclaw.vmf-fix-
@@ -163,8 +190,8 @@ The project is developed by Garry’s Mod community enthusiasts:
 
 <!-- Links for Badges -->
 [game]: https://store.steampowered.com/app/4000
-[hammer++]: https://ficool2.github.io/HammerPlusPlus-Website
-[starsgazers]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/stargazers
+[hammerplusplus]: https://ficool2.github.io/HammerPlusPlus-Website
+[stargazers]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/stargazers
 [issues]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/issues
 [contributors]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/graphs/contributors
 [releases]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/releases
