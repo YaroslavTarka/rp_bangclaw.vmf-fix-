@@ -101,10 +101,10 @@ The project is developed by Garry’s Mod community enthusiasts:
 
 ### 📦 Содержание репозитория
 
-- 📁 **Папка Content** — Используемые ассеты, исправленые текстуры, модели
-- 📁 **Папка Source** — Файлы `.blend` с исправлеными коллизиями моделей
-- 🗺️ **rp_bangclaw.vmf** — Редактируемый `.vmf` файл, для редактора карт "Hammer"
-- 📄 **CHANGELOG.md** — Список со всеми изменениями, с момента создания репозитория
+- 📁 **Папка Content** — Используемые ассеты, исправленные текстуры, модели
+- 📁 **Папка Source** — Файлы `.blend` с исправленными коллизиями моделей
+- 🗺️ **rp_bangclaw.vmf** — Редактируемый `.vmf` файл для редактора карт Hammer
+- 📄 **CHANGELOG.md** — Список всех изменений с момента создания репозитория
 
 Карта также доступна в [Steam Workshop][workshop_rp_bangclaw_fix]
 
@@ -121,19 +121,19 @@ The project is developed by Garry’s Mod community enthusiasts:
 2. **Переместите папку `content` в директорию:**  
 	`..\steamapps\common\GarrysMod\garrysmod\addons`
 
-Папку `content` можно хранить в любом месте на диске, но нужно указав путь к нему в `mount.cfg`  
-Файл конфигурации находиться по пути: ```..\common\GarrysMod\garrysmod\cfg```  
+Папка `content` может находиться в любом месте на диске, однако её путь необходимо прописать в `mount.cfg`  
+Файл конфигурации находится по пути: ```..\common\GarrysMod\garrysmod\cfg```  
 Примерный путь:
 ```
 	"content_bangclaw"	"F:\Github\rp_bangclaw.vmf-fix-\content"
 ```
 *Недостаток данного метода в том, что игра не видит папку `scripts`  
-Из-за этого `soundscape_bangclaw.txt` не будет работать, соответственно пропадут все звуки*
+Из-за этого `soundscape_bangclaw.txt` не будет работать, соответственно пропадут звуки окружения*
 
 ### ⚙️ Параметры компиляции
 
 Мы используем модифицированные компиляторы [**VBSP++**, **VVIS++** и **VRAD++**][ficool2_toolsplusplus] от ficool2  
-Эти компиляторы решают множество проблем, а также повышаюсь скорость компиляции в разы
+Они решают множество проблем и повышают скорость компиляции в разы
 
 | Этап        | Параметры                                                           |
 |-------------|---------------------------------------------------------------------|
@@ -141,14 +141,14 @@ The project is developed by Garry’s Mod community enthusiasts:
 | **VVIS++**  | _без параметров_                                                    |
 | **VRAD++**  | `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`  |
 
-Как установить комиляторы:
+Как установить компиляторы:
 1. Загрузи [последнюю версию инструментов][ficool2_toolsplusplus_download]
 2. Открой архив -> папку `tools_plusplus` -> `tools` 
 3. Извлеки 3 файла `vbspplusplus.exe`,`vradplusplus.exe`,`vvisplusplus.exe` в директорию `..\common\GarrysMod\bin\win64`
 4. В Hammer/Hammer++ перейди в `Tools` -> `Options` -> Вкладка `Build Programs`
-5. Для `BSP`, `VIS`, `RAD executable` укажи соответствующий компилятор с окончание `plusplus`
+5. Для `BSP`, `VIS`, `RAD executable` укажи соответствующий компилятор с окончанием `plusplus`
 
-*Подробнее о компиляторах можно ознакомиться на [**Valve Developer Community**][ficool2_toolsplusplus_VDC]*
+*Подробнее о компиляторах можно узнать на [**Valve Developer Community**][ficool2_toolsplusplus_VDC]*
 
 ### 🛠️ Разработчики
 
