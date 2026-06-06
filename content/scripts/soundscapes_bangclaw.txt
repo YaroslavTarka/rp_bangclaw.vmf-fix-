@@ -1,5 +1,5 @@
 // rp_bangclaw soundscape
-// Modified: Web_Artur (boxden), November 2025
+// Modified: Web_Artur (boxden), June 2026
 
 // DSP Effects
 // 0 : "Normal (off)"
@@ -503,7 +503,7 @@
 		"pitch"			"90,120"
 		"time"			"0.5,5"
 		"position"		"random"
-		"soundlevel"	"SNDLVL_140db"
+		"soundlevel"	"SNDLVL_140dB"
 		"rndwave"
 		{
 			"wave"		"ambient/water/distant_drip1.wav"
@@ -524,7 +524,7 @@
 		"time"			"5,20"
 		"pitch"			"80,140"
 		"position"		"random"
-		"soundlevel"	"SNDLVL_140db"
+		"soundlevel"	"SNDLVL_140dB"
 		"rndwave"
 		{
 			"wave"		"ambient/wind/wind_snippet1.wav"
@@ -615,7 +615,7 @@
 
 "bangclaw.general_dripping_tunnel"
 {
-	"dsp"					"1"
+	"dsp"					"6"
 	"dsp_volume"			"1"
 
 	"playlooping"
@@ -642,6 +642,22 @@
 		"name"				"bangclaw.tunnel_light_loud"
 		"volume"			"0.2"
 		"positionoverride"	"0"
+	}
+
+	"playrandom"
+	{
+		"volume"			"0.2,0.6"
+		"pitch"				"90,110"
+		"time"				"10,25"
+		"position"			"random"
+		"soundlevel"		"SNDLVL_NORM"
+
+		"rndwave"
+		{
+			"wave"			"rp_bangclaw/ambient/iron_moaning1.ogg"
+			"wave"			"rp_bangclaw/ambient/squeak_metal1.ogg"
+			"wave"			"rp_bangclaw/ambient/squeak_metal2.ogg"
+		}
 	}
 }
 
@@ -734,7 +750,7 @@
 		"volume"		"0.2,0.4"
 		"pitch"			"90,115"
 		"position"		"random"
-		"soundlevel"	"SNDLVL_140db"
+		"soundlevel"	"SNDLVL_140dB"
 		"rndwave"
 		{
 			"wave"		"ambient/levels/canals/swamp_bird1.wav"
@@ -768,7 +784,7 @@
 		"volume"		"0.35,0.6"
 		"pitch"			"95,105"
 		"position"		"random"
-		"soundlevel"	"SNDLVL_140db"
+		"soundlevel"	"SNDLVL_140dB"
 		"rndwave"
 		{
 			"wave"		"ambient/materials/wood_creak1.wav"
@@ -788,7 +804,7 @@
 		"volume"		"0.25,0.35"
 		"pitch"			"95,105"
 		"position"		"random"
-		"soundlevel"	"SNDLVL_140db"
+		"soundlevel"	"SNDLVL_140dB"
 		"rndwave"
 		{
 			"wave"		"ambient/creatures/rats1.wav"
@@ -810,7 +826,7 @@
 		"volume"		"0.18,0.35"
 		"pitch"			"95,115"
 		"position"		"random"
-		"soundlevel"	"SNDLVL_140db"
+		"soundlevel"	"SNDLVL_140dB"
 		"rndwave"
 		{
 			"wave"		"ambient/creatures/town_scared_sob1.wav"
@@ -920,7 +936,7 @@
 		"volume"		"0.2,0.8"
 		"pitch"			"100"
 		"position"		"random"
-		"soundlevel"	"SNDLVL_140db"
+		"soundlevel"	"SNDLVL_140dB"
 		"rndwave"
 		{
 			"wave"		"ambient/machines/heli_pass1.wav"
