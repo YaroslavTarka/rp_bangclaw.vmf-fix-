@@ -10,14 +10,14 @@
 ### 👋 Welcome!
 
 This repository contains a fixed and improved source version of the **rp_bangclaw** map for Garry’s Mod  
-It includes an editable **rp_bangclaw.vmf** for **Hammer** and **Hammer++**  
+It includes an editable **rp_bangclaw_fix.vmf** for **Hammer** and **Hammer++**  
 As well as additional content used to fix visual bugs and other map issues
 
 ### 📦 Repository Contents
 
 - 📁 **Content Folder** — Used assets, fixed textures, and models
 - 📁 **Source Folder** — `.blend` files with fixed model collisions
-- 🗺️ **rp_bangclaw.vmf** — Editable `.vmf` file for the "Hammer" map editor
+- 🗺️ **rp_bangclaw_fix.vmf** — Editable `.vmf` file for the "Hammer" map editor
 - 📄 **CHANGELOG.md** — List of all changes made since the repository was created
 
 The map is also available on the [Steam Workshop][workshop_rp_bangclaw_fix]
@@ -56,7 +56,7 @@ These compilers fix many issues and significantly improve compilation speed
 | **VRAD++**  | `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`  |
 
 How to install the compilers:
-1. Download the [latest version of the tools][ficool2_toolsplusplus_download]
+1. Download the [**latest version of the tools**][ficool2_toolsplusplus_download]
 2. Open the archive -> `tools_plusplus` folder -> `tools`
 3. Extract the 3 files `vbspplusplus.exe`, `vradplusplus.exe`, `vvisplusplus.exe` into `..\common\GarrysMod\bin\win64`
 4. In Hammer/Hammer++, go to `Tools` -> `Options` -> `Build Programs` tab
@@ -96,14 +96,14 @@ The project is developed by Garry’s Mod community enthusiasts:
 ### 👋 Добро пожаловать!
 
 Репозиторий содержит исправленный и улучшенный исходник карты **rp_bangclaw** для Garry’s Mod  
-Включает в себя редактируемую версию **rp_bangclaw.vmf** для **Hammer** и **Hammer++**  
+Включает в себя редактируемую версию **rp_bangclaw_fix.vmf** для **Hammer** и **Hammer++**  
 Также контент для исправления визуальных багов и других проблем карты
 
 ### 📦 Содержание репозитория
 
 - 📁 **Папка Content** — Используемые ассеты, исправленные текстуры, модели
 - 📁 **Папка Source** — Файлы `.blend` с исправленными коллизиями моделей
-- 🗺️ **rp_bangclaw.vmf** — Редактируемый `.vmf` файл для редактора карт Hammer
+- 🗺️ **rp_bangclaw_fix.vmf** — Редактируемый `.vmf` файл для редактора карт Hammer
 - 📄 **CHANGELOG.md** — Список всех изменений с момента создания репозитория
 
 Карта также доступна в [Steam Workshop][workshop_rp_bangclaw_fix]
@@ -142,7 +142,7 @@ The project is developed by Garry’s Mod community enthusiasts:
 | **VRAD++**  | `-StaticPropPolys -TextureShadows -StaticPropLighting -LDR -Final`  |
 
 Как установить компиляторы:
-1. Загрузи [последнюю версию инструментов][ficool2_toolsplusplus_download]
+1. Загрузи [**последнюю версию инструментов**][ficool2_toolsplusplus_download]
 2. Открой архив -> папку `tools_plusplus` -> `tools` 
 3. Извлеки 3 файла `vbspplusplus.exe`,`vradplusplus.exe`,`vvisplusplus.exe` в директорию `..\common\GarrysMod\bin\win64`
 4. В Hammer/Hammer++ перейди в `Tools` -> `Options` -> Вкладка `Build Programs`
