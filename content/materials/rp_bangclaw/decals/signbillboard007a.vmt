@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "props/signbillboard007a"
+	"$translucent" 1
+	"$vertexalpha" "1"
+	"$vertexcolor" "1"
+	"$decalscale" 1
+	$decal 1
+}
