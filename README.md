@@ -175,7 +175,7 @@ The project is developed by Garry’s Mod community enthusiasts:
 [steam_webartur]: https://steamcommunity.com/profiles/76561198115550963
 [github_new_issue]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/issues/new
 [github_green]: https://github.com/YaroslavTarka/rp_bangclaw_green
-[github_changelog]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/raw/main/CHANGELOG.md
+[github_changelog]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/blob/main/CHANGELOG.md
 [ficool2_toolsplusplus]: https://ficool2.github.io/HammerPlusPlus-Website/tools.html
 [ficool2_toolsplusplus_VDC]: https://developer.valvesoftware.com/wiki/Tools%2B%2B
 [ficool2_toolsplusplus_download]: https://github.com/ficool2/misc_tools/releases/download/v1/tools_plusplus.zip
