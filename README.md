@@ -18,7 +18,7 @@ As well as additional content used to fix visual bugs and other map issues
 - 📁 **Content Folder** — Used assets, fixed textures, and models
 - 📁 **Source Folder** — `.blend` files with fixed model collisions
 - 🗺️ **rp_bangclaw_fix.vmf** — Editable `.vmf` file for the "Hammer" map editor
-- 📄 **CHANGELOG.md** — List of all changes made since the repository was created
+- 📄 [**CHANGELOG.md**][github_changelog] — List of all changes made since the repository was created
 
 The map is also available on the [Steam Workshop][workshop_rp_bangclaw_fix]
 
@@ -104,7 +104,7 @@ The project is developed by Garry’s Mod community enthusiasts:
 - 📁 **Папка Content** — Используемые ассеты, исправленные текстуры, модели
 - 📁 **Папка Source** — Файлы `.blend` с исправленными коллизиями моделей
 - 🗺️ **rp_bangclaw_fix.vmf** — Редактируемый `.vmf` файл для редактора карт Hammer
-- 📄 **CHANGELOG.md** — Список всех изменений с момента создания репозитория
+- 📄 [**CHANGELOG.md**][github_changelog] — Список всех изменений с момента создания репозитория
 
 Карта также доступна в [Steam Workshop][workshop_rp_bangclaw_fix]
 
@@ -175,6 +175,7 @@ The project is developed by Garry’s Mod community enthusiasts:
 [steam_webartur]: https://steamcommunity.com/profiles/76561198115550963
 [github_new_issue]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/issues/new
 [github_green]: https://github.com/YaroslavTarka/rp_bangclaw_green
+[github_changelog]: https://github.com/YaroslavTarka/rp_bangclaw.vmf-fix-/raw/main/CHANGELOG.md
 [ficool2_toolsplusplus]: https://ficool2.github.io/HammerPlusPlus-Website/tools.html
 [ficool2_toolsplusplus_VDC]: https://developer.valvesoftware.com/wiki/Tools%2B%2B
 [ficool2_toolsplusplus_download]: https://github.com/ficool2/misc_tools/releases/download/v1/tools_plusplus.zip
