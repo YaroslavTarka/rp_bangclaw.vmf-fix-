@@ -1,7 +1,6 @@
 # 🏙️ Fix & Improvements rp_bangclaw
 
 [![Game][badge_game]][game]
-[![Editor Hammer][badge_hammer]][game]
 [![Editor Hammer++][badge_hammerplusplus]][hammerplusplus]
 [![GitHub Issues][badge_github_issues]][issues]
 [![GitHub Stars][badge_github_stars]][stargazers]
@@ -87,7 +86,6 @@ The project is developed by Garry’s Mod community enthusiasts:
 # 🏙️ Исправления и улучшения rp_bangclaw
 
 [![Game][badge_game]][game]
-[![Editor Hammer][badge_hammer]][game]
 [![Editor Hammer++][badge_hammerplusplus]][hammerplusplus]
 [![GitHub Issues][badge_github_issues]][issues]
 [![GitHub Stars][badge_github_stars]][stargazers]
@@ -182,7 +180,6 @@ The project is developed by Garry’s Mod community enthusiasts:
 
 <!-- Badges from shields.io -->
 [badge_game]: https://img.shields.io/badge/Game-Garry's_Mod-1b2838?logo=steam&logoColor=white
-[badge_hammer]: https://img.shields.io/badge/Editor-Hammer-2a6ca6?logo=sourceengine&logoColor=white
 [badge_hammerplusplus]: https://img.shields.io/badge/Editor-Hammer++-9b4fff?logo=sourceengine&logoColor=white
 [badge_github_issues]: https://img.shields.io/github/issues/YaroslavTarka/rp_bangclaw.vmf-fix-?&logo=github&logoColor=white
 [badge_github_stars]: https://img.shields.io/github/stars/YaroslavTarka/rp_bangclaw.vmf-fix-?style=flat&logo=github
