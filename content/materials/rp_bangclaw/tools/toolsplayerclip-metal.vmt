@@ -1,0 +1,11 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "tools/toolsplayerclip"
+	"srgb?$basetexture" "tools/toolsplayerclip-dx10"
+	"$translucent" "1"
+	"%compilenodraw" 1
+	"%compilepassbullets" 1
+	"%playerclip" 1
+	"$surfaceprop" "metal"
+	"%keywords" "rp_bangclaw_fix"
+}
