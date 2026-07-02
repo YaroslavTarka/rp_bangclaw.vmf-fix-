@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "models/props_pipes/pipeset_metal"
+	"$surfaceprop" "metal"
+}
